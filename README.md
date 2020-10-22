@@ -1,2 +1,35 @@
-# projeto-html---p-gina
-projeto de uma página web - Rafael Gimenez
+
+5
+6
+7
+8
+11
+12
+13
+14
+15
+16
+17
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Exemplo de Menu em HTML com CSS - YESbr Agência Web</title>
+<link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+ 
+<body>
+<ul>
+    <li><a href="#">link 1</a></li>
+    <li><a href="#">link 2</a></li>
+    <li><a href="#">link 3</a></li>
+    <li><a href="#">link 4</a></li>
+    <li><a href="#">link 5</a></li>
+</ul>
+</body>
+</html>
+
+
+
+
+
+
