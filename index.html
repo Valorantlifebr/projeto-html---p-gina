@@ -1,168 +1,37 @@
-<div class="container">
- <h1>
-    <a href="#menu">Click me</a>
- </h1>
-    
-<div class="popover" id="menu">
- <div class = 'content'>
-  <a href="#" class="close"></a>
-   <div class = 'nav'>
-    <ul class = 'nav_list'>
-      
-      <div class = 'nav_list_item'>
-	  <li><a href="#">Manu</a></li>
-      </div>
-     <div class = 'nav_list_item'>
-		<li><a href="#">Agentes</a></li>
-      </div>
-    <div class = 'nav_list_item'>
-	  <li><a href="#">Mapas</a></li>
-      </div>
-    <div class = 'nav_list_item'>
-	  <li><a href="#">Notíciais</a></li>
-      </div>
-     <div class = 'nav_list_item'>
-		<li><a href="#">Mídia</a></li>
-      </div>
-      
-	</ul>
-  </div>
- </div>
- </div>
- </div>
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-behavior: smooth;
-    background: #131313;
-    font-family:'Helvetica Neue', sans-serif;
-}
-
-h1 a {
-  font-size: 80px;
-  color: #FF0000;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.popover {
-   display: none;
-   box-shadow: 0px 6px 8px rgba(19, 19, 19, .7);
-}
-
-.popover:target {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.popover .content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 0;
-  height: 0;
-  color: #fff;
-  background-color: #191919;
-  animation: 1s grow ease forwards;
-  text-align: center;
-}
-
-.nav_list  {
-  list-style-type: none;
-}
-
-.nav_list a {
-  text-decoration: none;
-  font-size: 50px;
-  color: #fff;
-}
-
-.nav_list_item {
-  height: 100%;
-  overflow: hidden;
-}
-
-.nav_list li {
-  padding: 15px 0;
-  text-transform: uppercase;
-  transform: translateY(200px);
-  opacity: 0;
-  animation: 2s slideUp ease forwards .5s;
-  position: relative;
-}
-
-.nav_list li::before {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 0px;
-  left: 0;
-  bottom: 10px;
-  background: #FF0000; 
-  transition: all .5s ease;
-}
-
-.nav_list li:hover:before {
-      width: 100%;
-}
-
-.popover p {
-  padding: 50px;
-  opacity: 0;
-  animation: 1s fadeIn ease forwards 1s;
-}
-
-.popover .close::after {
-  right: 0;
-  top: 0;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  display: flex;
-  z-index: 1;
-  font-size: 30px;
-  align-items: center;
-  justify-content: center;
-  background-color:#FF0000 ;
-  color: #fff;
-  content: "×";
-  cursor: pointer;
-  opacity: 0; 
-  animation: 1s fadeIn ease forwards .5s;
-}
-
-@keyframes grow {
-  100% {
-    height: 90%;
-    width: 90%;
- }
-}
-
-@keyframes fadeIn {
-100% {
-  opacity: 1;
- }
-}
-
-@keyframes slideUp {
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Valorant Personagens</title>
+    </head>
+<body>
+    <h1>VALORANT é uma arena global competitiva. Um jogo de tiro tático 5x5 que tem como objetivo plantar ou desarmar a Spike. Os jogadores têm apenas uma vida por rodada, e vence a partida quem ganhar 13 rodadas primeiro. Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para que sua mecânica de tiro mostre a que veio.
+        A criatividade é sua melhor arma. 
+        </h1>
+        <title>Killjoy</title>
+        <h2>Killjoy, uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.</h2>
+<title>Reyna</title>
+<h3>Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado. Sua capacidade só é limitada por sua própria perícia, tornando-a bastante dependente de desempenho.</h3>
+   <title>Cypher</title>
+   <h4>Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo. Nenhuma manobra passa despercebida. Cypher está sempre vigiando.</h4>
+<title>Viper</title>
+<h5>Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.</h5>
+<title>Sova</title>
+<h6>Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.</h6>
+<title>Sage</title>
+<h7>Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.</h7>
+   <title>Phoenix</title> 
+<h8>Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.</h8>
+<title>Brimstone</title>
+<h9>Vindo diretamente dos EUA, o arsenal orbital de Brimstone garante que o esquadrão dele esteja sempre em vantagem. Sua capacidade de oferecer utilidade com precisão a distância faz dele um comandante inigualável na linha de frente.</h9>
+   <title>Omen</title>
+<h10>Omen uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá seu próximo ataque.</h10>
+<title>Breach</title>
+<h11>Breach, o homem-biônico sueco, dispara poderosos jatos cinéticos para forçar a abertura de um caminho pelo território inimigo. O dano e a interrupção que ele causa garantem que nenhuma luta seja justa.</h11>
+<title>Raze</title>
+<h12>Raze chega do Brasil em uma explosão de carisma e armas letais. Com seu estilo de jogo "porradeiro", ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM!</h12>
+<title>Jett</title>
+<h13>Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.</h13>
+<title>Skye</title>
+<h14>Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis. Com seus poderes de cura e suas criações que partem pra cima dos inimigos, qualquer equipe ficará mais forte e mais segura tendo Skye como aliada.</h14>
+</body>
+    </html>
